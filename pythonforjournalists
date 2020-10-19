@@ -1,0 +1,34 @@
+create a new enviroment
+	conda create --name pythonforjournalists python=3
+
+activate enviroment
+	conda activate pythonforjournalists
+
+deactivate enviroment
+	conda deactivate
+
+list enviroments
+	conda info --envs
+
+remove enviroment
+	conda remove --name myenv --all
+
+conda install pandas dask matplotlib xlrd requests beautifulsoup4 plotly dash
+
+open jupyter notebook
+	conda install notebook
+		jupyter notebook
+
+y return to command mode
+
+shift+enter run the code in jupyter
+
+m makes a markdown cell
+
+a insert a new cell above
+b insert a new cell bellow
+dd delete the selected cell
+
+import dask or pandas libraries
+	import dask.dataframes as dd
+	import pandas as pd
